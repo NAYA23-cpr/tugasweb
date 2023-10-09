@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100vw;
+  height: 80px;
+  background-color: aqua;
+}
+.container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.container ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.container-fluid {
+
+  display: flex;
+}
+.container-fluid aside {
+  background-color: cadetblue;
+  flex: 1;
+  height: 100vh;
+}
+
+.container ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.container-fluid {
+  display: grid;
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 400px;
+  grid-template-areas:
+    "text1 text1 text1 text1"
+    "text2 text3 text3 text4"
+    "text5 text5 text5 text5"
+    "text6 text6 text7 text7";
+  border: 5px solid rgb(195, 195, 185);
+}
+.kontakA {
+  background-color: blue;
+  grid-area: tiket1;
+}
+.kontakB {
+  background-color: aquamarine;
+  grid-area: tiket2;
+}
+.kontakC {
+  background-color: brown;
+  grid-area: tiket3;
+}
+.kontakD {
+  background-color: cornsilk;
+  grid-area: tiket4;
+}
+.kontakE {
+  background-color: brown;
+  grid-area: tiket5;
+}
+.kontakF {
+  background-color: cornsilk;
+  grid-area: tiket6;
+}
+.kontakG {
+  background-color: cornsilk;
+  grid-area: tiket7;
+}

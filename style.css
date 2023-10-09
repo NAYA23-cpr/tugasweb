@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 80px;
+    background-color: aqua;
+}
+.container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.container ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.container-fluid{
+    display: flex;
+}
+.container-fluid aside{
+    background-color: cadetblue;
+    flex: 1;
+    height: 100vh;
+}
+.container-fluid main{
+    background-color: cadetblue;
+    flex: 2;
+    height: 100vh;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: 80px;
+    display: flex;
+}
